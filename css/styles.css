@@ -3,7 +3,6 @@ body {
 }
 .container-fluid {
   padding: 1% 5% 0;
-  margin-bottom: 30px;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -37,7 +36,7 @@ h1 {
   width: 320px;
 }
 #features {
-  padding: 5% 8%;
+  padding: 10% 8%;
 }
 .featurebox {
   padding: 0 65px;
@@ -58,4 +57,31 @@ h3 {
 }
 p {
   color: #8f8f8f;
+}
+#testimonials {
+  text-align: center;
+  background-color: #3fc1c9;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #3fc1c9;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presslogo {
+  width: 15%;
+  margin: 0 20px;
+}
+.carousel-item {
+  padding: 10% 15%;
 }
