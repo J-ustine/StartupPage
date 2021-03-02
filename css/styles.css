@@ -36,3 +36,26 @@ h1 {
 .welcomeImage {
   width: 320px;
 }
+#features {
+  padding: 5% 8%;
+}
+.featurebox {
+  padding: 0 65px;
+}
+.iconfeatures {
+  color: #3fc1c9;
+  margin: 20px;
+}
+.iconfeatures:hover {
+  color: #139fa7;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features-row {
+  text-align: center;
+}
+p {
+  color: #8f8f8f;
+}
