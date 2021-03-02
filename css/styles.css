@@ -107,3 +107,20 @@ h2 {
 .card {
   margin-bottom: 10px;
 }
+#cta {
+  background-color: #3fc1c9;
+  padding: 5% 8% 0;
+  text-align: center;
+}
+.cta {
+  font-size: 3rem;
+  color: white;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+.iconfooter {
+  padding: 0px 10px 20px;
+}
