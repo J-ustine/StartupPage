@@ -2,23 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>TinDog</title>
+    <title>MeetPeople</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
 
   <body>
     <section id="title">
       <!-- Nav Bar -->
-
+      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="" class="navbar-brand px-2">MeetPeople</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Download</a></li>
+          </ul>
+        </div>
+      </div>
       <!-- Title -->
 
-      <div>
-        <h1>Meet new and passionate people nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1>Meet new and passionate people nearby.</h1>
+            <button type="button">Download</button>
+            <button type="button">Download</button>
+          </div>
+          <div class="col-md-6">
+            <img src="images/iphone6.png" alt="iphone-mockup" />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -38,8 +73,8 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <h2>I no longer have to be alone when I move to a new city.</h2>
-      <img src="images/painting.jpg" alt="painting" />
+      <h2>I no longer have to feel lost when I move to a new city.</h2>
+      <img src="images/painting.jpg" alt="painting" width="500px" />
       <em>Anna, from Barcelona</em>
 
       <!-- <h2 class="testimonial-text">I used to be so lonely, but with Meetpeople's help, I've found the passion of my life.</h2>
@@ -62,21 +97,21 @@
       <h2>A Plan for Every passionate people's Needs</h2>
       <p>Simple and affordable price plans for you.</p>
 
-      <h3>Chihuahua</h3>
+      <h3>Just a try!</h3>
       <h2>Free</h2>
       <p>5 Events Per Week</p>
       <p>10 Following Per Week</p>
       <p>Unlimited App Usage</p>
       <button type="button">Sign Up</button>
 
-      <h3>Labrador</h3>
+      <h3>I like it!</h3>
       <h2>49€ / mo</h2>
       <p>Unlimited events</p>
       <p>Unlimited following</p>
       <p>Unlimited App Usage</p>
       <button type="button">Sign Up</button>
 
-      <h3>Mastiff</h3>
+      <h3>Ohmygod! I love it!</h3>
       <h2>99€ / mo</h2>
       <p>Priority Subcription</p>
       <p>Unlimited Events</p>
@@ -98,5 +133,10 @@
     <footer id="footer">
       <p>© Copyright 2018 MeetPeople</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
