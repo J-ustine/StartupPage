@@ -37,6 +37,17 @@ h1 {
   bottom: 150px;
   position: absolute;
 }
+@media (max-width: 1028px) {
+  .welcomeImage {
+    position: sticky;
+  }
+  #title {
+    text-align: center;
+  }
+  .container-fluid {
+    padding: 1% 5% 0;
+  }
+}
 #features {
   padding: 10% 8%;
   background-color: white;
