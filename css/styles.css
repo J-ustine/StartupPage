@@ -1,18 +1,41 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
 .container-fluid {
   padding: 1% 5% 2%;
 }
-h1 {
+.color-section {
+  background-color: #3fc1c9;
+  color: white;
+}
+.nocolor-section {
+  background-color: white;
+}
+
+/*Title section*/
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
+
 #title {
-  background-color: #3fc1c9;
-  color: white;
+  text-align: left;
 }
 .navbar {
   padding-bottom: 4.5rem;
@@ -48,10 +71,13 @@ h1 {
     padding: 1% 5% 0;
   }
 }
+/*Features section*/
 #features {
   padding: 10% 8%;
-  background-color: white;
   position: relative;
+}
+.featurestitle {
+  font-size: 1.5rem;
 }
 .featurebox {
   padding: 0 65px;
@@ -63,34 +89,14 @@ h1 {
 .iconfeatures:hover {
   color: #139fa7;
 }
-h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-.features-row {
-  text-align: center;
-}
-p {
-  color: #8f8f8f;
-}
-#testimonials {
-  text-align: center;
-  background-color: #3fc1c9;
-  color: white;
-}
-h2 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
-}
+
+/*Testimonials section*/
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 #press {
-  background-color: #3fc1c9;
-  text-align: center;
   padding-bottom: 3%;
 }
 .presslogo {
@@ -100,26 +106,35 @@ h2 {
 .carousel-item {
   padding: 5% 15%;
 }
+.testimonialtext {
+  font-size: 3rem;
+}
+/*Price section*/
 #pricing {
   padding: 5% 8%;
-  text-align: center;
+}
+.sectionheading {
+  font-size: 3rem;
 }
 .card {
   margin-bottom: 10px;
 }
+.pricetitle {
+  font-size: 1.5rem;
+}
+.pricetext {
+  font-size: 3rem;
+}
+/*CallToAction section*/
 #cta {
-  background-color: #3fc1c9;
   padding: 5% 8% 0;
-  text-align: center;
 }
 .cta {
   font-size: 3rem;
-  color: white;
 }
-
+/*Footer section*/
 #footer {
   padding: 5%;
-  text-align: center;
 }
 .iconfooter {
   padding: 0px 10px 20px;
